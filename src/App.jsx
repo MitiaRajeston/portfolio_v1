@@ -2,7 +2,7 @@ import React from "react"; // Importe React pour créer des composants
 import { motion } from "framer-motion"; // Importe Framer Motion pour les animations
 import Header from "./components/Header"; // Importe le composant Header
 import Footer from "./components/Footer"; // Importe le composant Footer
-import Home from "./pages/Home"; // Importe la page d’accueil
+import Home from "./pages/Home";// Importe la page d’accueil
 
 function App() { // Déclare le composant principal de l’application
   return (
