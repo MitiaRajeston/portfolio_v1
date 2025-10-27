@@ -1,8 +1,8 @@
 import React from "react"; // Importe React pour créer des composants
 import { motion } from "framer-motion"; // Importe Framer Motion pour les animations
 import Header from "./components/Header"; // Importe le composant Header
-import Footer from "./components/Footer"; // Importe le composant Footer
-import Home from "./pages/Home";// Importe la page d’accueil
+import Footer from "./components/Footer"; // Importe le composant Foote
+import Home from "./pages/home";
 
 function App() { // Déclare le composant principal de l’application
   return (
@@ -15,9 +15,8 @@ function App() { // Déclare le composant principal de l’application
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        <Home /> {/* Page d’accueil affichée */}
-      </motion.main>
-      
+        <Home/>
+       </motion.main>
       <Footer /> {/* Pied de page */}
     </div>
   );
