@@ -36,7 +36,7 @@ export default function Home() {
             className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-yellow-400 to-yellow-600 text-transparent bg-clip-text"
             whileHover={{ scale: 1.05 }}
           >
-            Welcome to My Portfolio
+            Bonjour Valessa
           </motion.h1>
           <motion.p
             className="text-xl text-gray-600 mb-8"
